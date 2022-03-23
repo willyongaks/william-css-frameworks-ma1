@@ -11041,4 +11041,19 @@ body {
 .page-heading {
   text-align: center;
   margin: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F4F3EE;
+  height: 44px;
+  color: #8D8D8D;
+}
+footer a {
+  color: #8D8D8D;
 }/*# sourceMappingURL=main.css.map */

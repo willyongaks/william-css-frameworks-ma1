@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary;
+    height: 44px;
+    color: $footercolor;
+
+    a{
+        color: $footercolor;
+    }
+}
