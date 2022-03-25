@@ -1,14 +1,34 @@
 footer{
+    position: absolute;
+   
+}
+.main_footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     background-color: $primary;
     height: 44px;
     color: $footercolor;
-  top: 0;
+    position: relative;
+    top: 8em;
 
     a{
         color: $footercolor;
+    }
+
+    .item_1{
+        margin-left: 12rem;
+    }
+
+    .item_2{
+        margin-right: 12rem;
+    }
+
+    @media(min-width:680px){
+        .main_footer{
+            display: flex;
+            flex-direction: column;
+            height: 92px;
+        }
     }
 }

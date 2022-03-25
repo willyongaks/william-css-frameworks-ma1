@@ -11051,6 +11051,10 @@ body {
 }
 
 footer {
+  position: absolute;
+}
+
+.main_footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11063,10 +11067,29 @@ footer {
   background-color: #F4F3EE;
   height: 44px;
   color: #8D8D8D;
-  top: 0;
+  position: relative;
+  top: 8em;
 }
-footer a {
+.main_footer a {
   color: #8D8D8D;
+}
+.main_footer .item_1 {
+  margin-left: 12rem;
+}
+.main_footer .item_2 {
+  margin-right: 12rem;
+}
+@media (min-width: 680px) {
+  .main_footer .main_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 92px;
+  }
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
