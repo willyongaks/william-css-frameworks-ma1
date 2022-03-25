@@ -1,9 +1,12 @@
 footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
     background-color: $primary;
     height: 44px;
     color: $footercolor;
+  top: 0;
 
     a{
         color: $footercolor;

@@ -2,7 +2,15 @@
     width: 264px;
     height: 263px;
     margin: 10px;
-    background-color: $primary;
     border-radius: 15px;
+    background-color: $primary;
+    border: 1pxsolid $primary;
 
+   &--border-coloured{
+       border: 1px solid $card-bg;
+   }
+
+   &--bg-colored{
+       background-color: $card-bg;
+   }
 }

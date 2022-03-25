@@ -4917,9 +4917,9 @@ input[type=button].btn-block {
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #C32C72;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #F4F3EE;
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -4977,7 +4977,7 @@ input[type=button].btn-block {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid #F4F3EE;
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
@@ -4986,7 +4986,7 @@ input[type=button].btn-block {
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 1px solid #F4F3EE;
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -11030,8 +11030,15 @@ h3 {
   width: 264px;
   height: 263px;
   margin: 10px;
-  background-color: #F4F3EE;
   border-radius: 15px;
+  background-color: #F4F3EE;
+  border: 1pxsolid #F4F3EE;
+}
+.card--border-coloured {
+  border: 1px solid #C32C72;
+}
+.card--bg-colored {
+  background-color: #C32C72;
 }
 
 body {
@@ -11050,10 +11057,18 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #F4F3EE;
   height: 44px;
   color: #8D8D8D;
+  top: 0;
 }
 footer a {
   color: #8D8D8D;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #C32C72;
 }/*# sourceMappingURL=main.css.map */
