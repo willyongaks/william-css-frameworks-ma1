@@ -11026,6 +11026,12 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .card {
   width: 264px;
   height: 263px;
@@ -11036,6 +11042,7 @@ h3 {
 }
 .card--border-coloured {
   border: 1px solid #C32C72;
+  background-color: #FFFFFF;
 }
 .card--bg-colored {
   background-color: #C32C72;
@@ -11050,46 +11057,14 @@ body {
   margin: 10px;
 }
 
-footer {
-  position: absolute;
-}
-
 .main_footer {
+  background-color: #F4F3EE;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #F4F3EE;
-  height: 44px;
-  color: #8D8D8D;
-  position: relative;
-  top: 8em;
-}
-.main_footer a {
-  color: #8D8D8D;
-}
-.main_footer .item_1 {
-  margin-left: 12rem;
-}
-.main_footer .item_2 {
-  margin-right: 12rem;
-}
-@media (min-width: 680px) {
-  .main_footer .main_footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 92px;
-  }
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
